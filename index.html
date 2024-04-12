@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                
+                </ul>
+              
+            </nav>
+            <div class="header-text">
+                <p class="text ">UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ayush</span> from Pune</h1>
+            </div>
+       
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/profile.png" alt="error">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello there I'm Ayush Kamble, a frontend developer passionate about crafting exceptional digital experiences. With a focus on performance and usability, I strive to create websites and applications that not only look great but also deliver results. I have a strong foundation in frontend technologies and a knack for problem-solving. I'm excited about the future of web development and eager to be a part of it. Let's build something awesome together!
+
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        <p class="tab-links"  onclick="opentab('Honours')">Honours & Rewards</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Devlopment</span><br>Web app Development</li>
+                            <li><span>MySQL</span><br>Expert in Database Managementtools like MySQL</li>
+                            <li><span>MongoDB</span><br>Intermediate in Non Releational Management tools like MongoDB<br></li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Intern at SmartKnower</li>
+                            <li><span>2023</span><br>Intern at Intrainz </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>SSC from Nagpur</li>
+                            <li><span>2020</span><br>HSC from Nagpur</li>
+                            <li><span>2024</span><br>Bachelor's of Technology from Pune</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Honours">
+                        <ul>
+                            <li><span>2024</span><br>Presented research paper at RTEP MIT conference</li>
+                          
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!--<i class="fa-solid fa-code"></i>-->
+                    <h2>Web Design</h2>
+               
+                    <p>As a web designer, I'm dedicated to crafting immersive online experiences that leave a lasting impact. With a passion for creativity and a knack for problem-solving, I meticulously design layouts, select fonts, and curate imagery to convey brands' unique stories.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design" target="_blank">Learn More</a>
+                </div>
+                <div>
+                <!---<i class="fa-solid fa-crop"></i> ------->    
+                    <h2>Web Devlopment</h2>
+                  
+                    <p>As a web developer, I transform ideas into responsive and efficient websites. With expertise in coding languages like HTML, CSS, and JavaScript, I create user-friendly interfaces and seamless experiences. .</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank">Learn More</a>
+                </div>
+                <div> 
+                    <!--<i class="fa-solid fa-server"></i>-->
+                    
+                    <h2>IoT Applications</h2>
+                   
+                    <p>As an IoT developer, I specialize in building interconnected devices and systems that bring the physical and digital worlds together. </p>
+                    <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                   <img src="Images/news.jpg" alt="">
+                   <div class="layer">
+                    <h3>News API</h3>
+                    <p>Designed and implemented a News API project, facilitating seamless access to up-to-date news from various sources. Demonstrated expertise in API integration, data processing, and real-time content delivery. </p>
+                    <a href="https://github.com/ayushhk30/NewsNest-API" target="_blank"><i class="fa-solid fa-link"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                   <img src="Images/work-3.png" alt=""> 
+                   <div class="layer">
+                    <h3>Jarvis Desktop Assistant</h3>
+                    <p>Developed a Python-based Jarvis desktop assistant for intuitive interaction and task automation, utilizing natural language processing techniques. Proficiently integrated voice recognition and command execution functionalities for enhanced user experience </p>
+                    <a href="https://github.com/ayushhk30/Jarvis-Desktop-Assistant" target="_blank"><i class="fa-solid fa-link"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                    <img src="Images/healthcare.jpg" alt="">
+                    <div class="layer">
+                        <h3>Healthcare monitoring system</h3>
+                        <p>Developed an advanced health monitoring system integrating sensors and cloud technology for comprehensive data collection and analysis. Enabled real-time tracking of vital signs like heart rate and blood pressure, ensuring proactive health management.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                       </div>
+                </div>
+            </div>
+            <a href="https://github.com/ayushhk30" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+   
+  <div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+           
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ayush-kamble-5bb360214/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/ayushh.k_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/friends/?profile_id=100009899522331" target="_blank"><i class="fa-brands fa-facebook"></i></a> 
+                <a href="https://twitter.com/ayushkamble30" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="mailto:ayushkamble3003@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+
+                
+            </div>
+            <a href="Images/AyushKambleResume-1.pdf" download class="btn btn2" >Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                <button type="submit " class="btn btn2">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Created by Ayush Kamble © 2024</p>
+</div>
+  </div>
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<script>
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbwpO6Gs5jKaBrguEthhMUFUpmJDGUbxqVDAY-BLnqvQnHu_Dg5ikde6etqoXcRSPoo/exec'
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                if (response.ok) {
+                    msg.innerHTML = "Message sent. Thank you!";
+                    form.reset();
+                } else {
+                    msg.innerHTML = "Error sending message. Please try again.";
+                }
+                setTimeout(function() {
+                    msg.innerHTML = "";
+                }, 5000);
+            })
+            .catch(error => {
+                msg.innerHTML = "Error sending message. Please try again.";
+                console.error('Error!', error);
+            });
+    });
+</script>
+
+    
+</body>
+</html>
+
